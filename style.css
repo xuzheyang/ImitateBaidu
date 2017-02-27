@@ -1,0 +1,220 @@
+/**
+ * 取消主体元素的内外边距
+ */
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul
+{
+	margin:0;
+	padding:0;
+}
+
+/**
+ * 网页头部样式
+ */
+.header {
+	text-align: right;
+	font-size: 13px;
+}
+
+/* 导航条 */
+.header  a {
+	margin-top: 19px;
+	display: inline-block;
+	color: #333;
+	line-height: 23px;
+	margin-left: 15px;
+	text-decoration: underline;
+}
+
+.header  .lk {
+	font-weight: 700;
+}
+
+.header  .btn_more {
+	width: 59px;
+	height: 23px;
+	color: #FFF;
+	background: #38F;
+	margin: 0px 11px 0px 19px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/**
+ * 网页主体样式
+ */
+.content {
+	height: 500px;
+	text-align: center;
+}
+
+/* 为了跟左边对称 */
+.content .left {
+	float: left;
+	width: 140px;
+	height: 500px;
+}
+
+/* 百度中央搜索样式 */
+.content .center {
+	width: 50%;
+	height: 500px;
+	display: inline-block;
+	/* background-color: purple; */
+	/* overflow: hidden; */
+}
+
+.content .center img {
+	/* margin-top: 10px; */
+	display: block;
+	margin: 10px auto;
+}
+
+.content .center .full_search {
+	margin: 10px auto;
+	display: inline-block;
+	/* height: 35px; */
+	/* background-color: skyblue; */
+	/* overflow: hidden; */
+	/* vertical-align: top; */
+}
+
+.content .center .full_search .btn_search {
+	width: 100px;
+	height: 35px;
+	color: #FFF;
+	background-color: #38F;
+	border: #38F solid 1px;
+	vertical-align: top;
+}
+
+.content .center .full_search div {
+	display: inline-block;
+	height: 33px;
+	border: #B8B8B8 solid 1px;
+}
+
+.content .center .full_search div input {
+	width: 450px;
+	height: 22px;
+	border: none;
+	margin-left: 5px;
+}
+
+.content .center .full_search div a {
+	width: 18px;
+	height: 16px;
+	margin-top: 8px;
+	margin-right: 10px;
+	display: inline-block;
+	background: url('images/camera_new_5606e8f.png');
+}
+
+/* 底部信息 */
+.content .center .footer {
+	margin-top: 190px;
+	font-size: 12px;
+	color: #666;
+	/* background-color: skyblue; */
+}
+
+.content .center .footer .f_logo {
+	font-weight: 700;
+}
+
+
+.content .center .footer .f_logo img {
+	display: block;
+	margin:  5px auto;
+}
+
+.content .center .footer .abt a {
+	color: #999;
+	display: inline-block;
+	margin: 20px 0px  0px 10px;
+}
+
+.content .center .footer .declare span {
+	color: #999;
+	/* margin: 10px 0px  0px 10px; */
+}
+
+.content .center .footer .declare .ICP {
+	display: inline-block;
+	height: 17px;
+	width: 14px;
+	background: url('images/icons_5859e57.png') -600px -96px;
+	/* background-color: #000; */
+}
+
+.content .center .footer .declare .polic {
+	display: inline-block;
+	height: 14px;
+	width: 16px;
+	background: url('images/icons_5859e57.png') -623px -97px;
+	/* background-color: #000; */
+}
+
+.content .center .footer .declare a {
+	color: #999;
+	display: inline-block;
+	margin: 10px 0px  0px 10px;
+}
+
+/* 百度右边的隐藏选项卡，配合js使用 */
+.content .right {
+	float: right;
+	width: 140px;
+	height: 500px;
+}
+
+.content .right .setting {
+	display: none;
+	float: left;
+	width: 70px;
+	font-size: 13px;
+	text-align: center;
+	border: #D1D1D1 solid 1px;
+}
+
+.content .right .setting a {
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	color: #333;
+	text-decoration: none;
+}
+
+.content .right .more {
+	display: none;
+	float: right;
+	width: 88px;
+	height: 500px;
+	background-color: #F9F9F9;
+	border-left: #E7E7E7 solid 1px;
+}
+
+.content .right .more .empty {
+	border: 0px;
+	height: 10px;
+}
+
+.content .right .more a {
+	display: block;
+	margin: 0 auto;
+	color: #333;
+	width: 75%;
+	height: 75px;
+	font-size: 13px;
+	text-decoration: none;
+	border-top: #E7E7E7 solid 1px;
+}
+
+.content .right .more .all {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.content .right .more a img {
+	display: block;
+	margin: 8px auto;
+}
